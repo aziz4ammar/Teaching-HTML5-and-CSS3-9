@@ -1,0 +1,22 @@
+body{
+    font-family: arial;
+}
+.btn{border: 1px solid #b25f72;
+    background-color: #03c4eb;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    color: #b25f72;
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.btn:hover{
+    background-color: #ffdd40;
+    border-color: red;
+    color: #897722;
+}
+.btn:active{
+    background-color: #897722;
+    color: #ffdd40;
+    border-color: paleturquoise;
+}
